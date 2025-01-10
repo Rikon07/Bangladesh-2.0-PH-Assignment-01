@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav */
+.Navbar{
+    margin-top: 24px;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bangladesh2{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.Nav-btn{
+    color: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: 1px solid;;
+}
+
+/* Banner */
+.banner{
+    margin-left: 160px;
+    margin-right: 160px;
+    padding: 80px 60px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.BD2{
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    /* margin-bottom: 16px; */
+    margin: 16px 0px;
+}
+.text{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 16px 0px;
+}
+.explore{
+    /* margin-top: 24px; */
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    padding: 17px 34px;
+    border: none;
+}
