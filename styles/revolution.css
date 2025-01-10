@@ -2,6 +2,21 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #F1F1F3;
+}
+
+/* Shared*/
+.titles{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 32px 0px;
+}
 
 /* Nav */
 .Navbar{
@@ -12,6 +27,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #F1F1F3;
 }
 .bangladesh2{
     color: rgb(14, 14, 14);
@@ -87,16 +103,6 @@
 .pillar{
     margin: 80px 160px;
 }
-.pillar h1{
-    color: rgb(14, 14, 14);
-    font-family: Fira Sans;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 48px;
-    letter-spacing: 0%;
-    text-align: left;
-    margin: 32px 0px;
-}
 .pillar-layout{
     display: flex;
     justify-content:space-between;
@@ -142,16 +148,6 @@
     justify-content:space-between;
     gap: 24px;
     margin: 32px 0;
-}
-.Vision h1{
-    color: rgb(14, 14, 14);
-    font-family: Fira Sans;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 48px;
-    letter-spacing: 0%;
-    text-align: left;
-    margin: 32px 0px;
 }
 .Vision .vision-txt{
     color: rgba(14, 14, 14, 0.7);
@@ -301,23 +297,9 @@
 
 /* Opinion */
 
-.Your-Opinion{
-    background: rgb(250, 250, 250);
-}
 .Opinion{
     margin: 80px 160px;
 
-}
-
-.Opinion h1{
-    color: rgb(14, 14, 14);
-    font-family: Fira Sans;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 48px;
-    letter-spacing: 0%;
-    text-align: left;
-    margin: 24px 0px;
 }
 .form-box{
     border-radius: 16px;
@@ -380,4 +362,70 @@
     line-height: 19px;
     letter-spacing: 0%;
     text-align: left;
+}
+
+/* Recent */
+.Recent{
+    margin: 80px 160px;
+}
+.recent-txt{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 12px 0px;
+}
+.recent-box{
+    border-radius: 16px;
+    background-color: white;
+    padding: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    /* height: 410px; */
+    margin: 24px 0;
+}
+.satelite{
+    border-radius: 24px;
+}
+.launch{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 12px 12px;
+}
+.jazera{
+    margin: 0 12px;
+}
+.recent-txt-in{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 12px 12px;
+}
+.read-more{
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 32px 12px;
+    border-radius: 8px;
+    padding: 13px 26px 13px 26px;
+    background: rgb(0, 106, 80);
+    border: none;
 }
