@@ -82,3 +82,216 @@
     padding: 17px 34px;
     border: none;
 }
+
+/* Pillars of Bangladesh */
+.pillar{
+    margin: 80px 160px;
+}
+.pillar h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 32px 0px;
+}
+.pillar-layout{
+    display: flex;
+    justify-content:space-between;
+    gap: 24px;
+}
+.pillar-card{
+    width: 302px;
+    height: 244px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 24px;
+    align-items: center;
+    justify-content: center;
+}
+.pillar-card-head{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 12px 0px;
+}
+.pillar-card-txt{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 12px 0px;
+}
+
+/* The Vision of Future */
+.Vision{
+    margin: 80px 160px;
+}
+.vision-layout{
+    display: flex;
+    justify-content:space-between;
+    gap: 24px;
+    margin: 32px 0;
+}
+.Vision h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 32px 0px;
+}
+.Vision .vision-txt{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.vision-card-head{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 12px 0px;
+}
+.vision-card-txt{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.vision-card-blue{
+    width: 410px;
+    height: 325px;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+    align-items: center;
+    justify-content: center;
+}
+.vision-card-blue-btn{
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    border: none;
+    margin: 24px 0px;
+}
+.vision-card-green{
+    width: 410px;
+    height: 325px;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    padding: 32px;
+    align-items: center;
+    justify-content: center;
+}
+.vision-card-green-btn{
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    border: none;
+    margin: 24px 0px;
+}
+.vision-card-yellow{
+    width: 410px;
+    height: 325px;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+    padding: 32px;
+    align-items: center;
+    justify-content: center;
+}
+.vision-card-yellow-btn{
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    border: none;
+    margin: 24px 0px;
+    background: rgb(255, 194, 57);
+}
+
+/* Quote */
+.quote{
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 32px;
+    margin-bottom: 80px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 48px 24px 48px 24px;
+    background-position: top left;
+    background-image: url(../images/quote-bg.png);
+    background-repeat: no-repeat;
+}
+.quote-txt{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 12px 0px;
+}
+.yunus-name{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 4px 0px;
+}
+.yunus-title{
+    color: rgba(14, 14, 14, 0.6);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 4px 0px;
+}
