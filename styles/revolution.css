@@ -33,6 +33,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #F1F1F3;
+    gap: 580px;
 }
 
 .bangladesh2 {
@@ -316,15 +317,12 @@ body {
     margin-bottom: 80px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
-    padding: 43px 24px 43px 24px;
+    padding: 48px 24px 48px 24px;
     background: rgb(255, 255, 255);
-}
-
-.quote-pad {
-    padding: 5px 0px 5px 0px;
     background-position: top left;
     background-image: url(../images/quote-bg.png);
     background-repeat: no-repeat;
+    background-position: 28px 30px;
 }
 
 .quote-txt {
