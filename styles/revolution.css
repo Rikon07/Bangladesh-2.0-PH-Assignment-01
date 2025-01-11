@@ -56,11 +56,13 @@ body {
     padding: 15px 30px;
     border-radius: 8px;
     border: 1px solid;
+    cursor: pointer;
 }
 
 .Nav-btn:hover {
     background-color: rgb(0, 106, 80);
     color: white;
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 /* Banner */
@@ -111,11 +113,14 @@ body {
     background: rgb(0, 106, 80);
     padding: 17px 34px;
     border: none;
+    cursor: pointer;
 }
 
 .explore:hover {
     background-color: white;
     color: #006A50;
+    border: 1px solid #006A50;
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 /* Pillars of Bangladesh */
@@ -232,6 +237,8 @@ body {
     background: rgb(84, 144, 245);
     border: none;
     margin: 24px 0px;
+    cursor: pointer;
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, .5);
 }
 
 .vision-card-blue-btn:hover {
@@ -261,6 +268,8 @@ body {
     background: rgb(9, 161, 92);
     border: none;
     margin: 24px 0px;
+    cursor: pointer;
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, .5);
 }
 
 .vision-card-green-btn:hover {
@@ -291,6 +300,8 @@ body {
     border: none;
     margin: 24px 0px;
     background: rgb(255, 194, 57);
+    cursor: pointer;
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, .5);
 }
 
 .vision-card-yellow-btn:hover {
@@ -427,7 +438,8 @@ select {
 }
 
 select:hover {
-    background-color: rgb(152, 196, 176);
+    background-color: rgb(147, 221, 188);
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -502,19 +514,23 @@ select:hover {
     padding: 13px 26px 13px 26px;
     background: rgb(0, 106, 80);
     border: none;
+    cursor: pointer;
 }
 
 .arg:hover {
     background-color: aqua;
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.4);
 }
 
 .rev:hover {
     background-color: red;
     color: rgb(149, 205, 149);
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.4);
 }
 
 .st:hover {
     background-color: blue;
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.4);
 }
 
 /* Donate */
@@ -558,7 +574,8 @@ select:hover {
 }
 
 .taka-box:hover {
-    background-color: rgb(50, 172, 115);
+    background-color: rgb(82, 194, 142);
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .donation {
@@ -587,6 +604,7 @@ select:hover {
     border: none;
     width: 1032px;
     height: 64px;
+    box-shadow: -2px 2px 5px -2px rgba(0, 0, 0, 0.2);
 }
 
 .other-amount {
@@ -627,6 +645,8 @@ select:hover {
     border-radius: 8px;
     background: rgb(0, 106, 80);
     align-items: center;
+    cursor: pointer;
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .donate-btn:hover {
@@ -719,6 +739,8 @@ select:hover {
     background: rgb(0, 106, 80);
     width: 150px;
     height: 52px;
+    cursor: pointer;
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .subs-btn:hover {
