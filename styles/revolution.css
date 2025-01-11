@@ -233,9 +233,11 @@ body {
     border: none;
     margin: 24px 0px;
 }
-.vision-card-blue-btn:hover{
+
+.vision-card-blue-btn:hover {
     background-color: rgb(64, 122, 220);
 }
+
 .vision-card-green {
     width: 410px;
     height: 325px;
@@ -260,9 +262,12 @@ body {
     border: none;
     margin: 24px 0px;
 }
-.vision-card-green-btn:hover{
-    background-color: rgb(6, 103, 59);;
+
+.vision-card-green-btn:hover {
+    background-color: rgb(6, 103, 59);
+    ;
 }
+
 .vision-card-yellow {
     width: 410px;
     height: 325px;
@@ -287,9 +292,11 @@ body {
     margin: 24px 0px;
     background: rgb(255, 194, 57);
 }
-.vision-card-yellow-btn:hover{
+
+.vision-card-yellow-btn:hover {
     background-color: rgb(195, 143, 20);
 }
+
 /* Quote */
 .quote {
     margin-left: 160px;
@@ -349,22 +356,24 @@ body {
 
 }
 
-.form-box {
+.opinion-container {
+    padding: 32px;
+    font-family: Fira Sans;
     border-radius: 16px;
     background-color: white;
-    padding: 32px;
-    /* height: 410px; */
 }
 
-.head-text {
+.table-head {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(198, 228, 214);
+    gap: 875px;
     border: 1px solid rgba(14, 14, 14, 0.15);
-    padding: 24px 24px;
+    background-color: rgb(198, 228, 214);
+    align-items: center;
+    padding: 24px;
 }
 
-.Opinion .form-box .head-text h4 {
+.t-title {
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
     font-size: 20px;
@@ -372,19 +381,15 @@ body {
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
-    margin: 0 10px;
 }
 
-.row {
-    display: flex;
-    justify-content: space-between;
+td,
+th {
+    border: 1px solid black;
     border: 1px solid rgba(14, 14, 14, 0.15);
-    padding: 24px 24px 24px 0;
-    height: 28px;
-    align-items: center;
-}
-
-.ques {
+    background: rgba(255, 255, 255, 0.1);
+    text-align: start;
+    padding: 24px;
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
     font-size: 16px;
@@ -392,31 +397,39 @@ body {
     line-height: 19px;
     letter-spacing: 0%;
     text-align: left;
-    margin: 0 10px;
 }
 
-.checkbox {
-    margin: 0 0px;
-    display: block;
-    padding: 17px;
-    border-left: 1px solid rgba(14, 14, 14, 0.15);
+.table-opinion {
+    text-align: center;
 }
 
-.sell {
-    border: 1px solid rgb(14, 14, 14);
+table {
+    border-collapse: collapse;
+    width: 1216px;
+    height: 92px;
+    padding: 24px;
+}
+
+.options {
+    background-color: rgb(198, 228, 214);
+}
+
+select {
     border-radius: 4px;
-    background: rgb(198, 228, 214);
+    padding: 10px 14px;
+    background-color: rgb(198, 228, 214);
+    height: 44px;
     width: 152px;
-    height: 42px;
-    padding: 10px 14px 10px 14px;
-    color: rgb(14, 14, 14);
-    font-family: Fira Sans;
+    text-align: center;
     font-size: 16px;
     font-weight: 500;
-    line-height: 19px;
-    letter-spacing: 0%;
-    text-align: left;
+    font-family: Fira Sans;
 }
+
+select:hover {
+    background-color: rgb(152, 196, 176);
+}
+
 
 /* Recent */
 .Recent {
@@ -538,11 +551,14 @@ body {
     border-radius: 16px;
     background: rgb(255, 255, 255);
     padding: 40px;
+}
+
+.taka-box-200 {
     background-color: rgb(198, 228, 214);
 }
 
 .taka-box:hover {
-    background-color: tomato;
+    background-color: rgb(50, 172, 115);
 }
 
 .donation {
@@ -691,6 +707,7 @@ body {
     margin-left: 0;
     margin-right: 0;
 }
+
 .subs-btn {
     color: rgb(255, 255, 255);
     font-family: Fira Sans;
@@ -703,6 +720,7 @@ body {
     width: 150px;
     height: 52px;
 }
+
 .subs-btn:hover {
     background-color: transparent;
     color: #006A50;
@@ -711,6 +729,7 @@ body {
 
 
 /* Footer */
+
 footer {
     height: 180px;
 }
@@ -722,8 +741,22 @@ footer {
     justify-items: center;
 }
 
+.fbd {
+    margin: 16px 0px;
+}
+
 .footer-box h3 {
     margin: 16px 0;
+}
+
+.foot-icons {
+    margin: 32px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    gap: 23px;
 }
 
 .footer-box .bangladesh2 {
