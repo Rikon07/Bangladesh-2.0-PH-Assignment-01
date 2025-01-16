@@ -382,7 +382,7 @@ body {
 .table-head {
     display: flex;
     justify-content: space-between;
-    gap: 875px;
+    /* gap: 875px; */
     border: 1px solid rgba(14, 14, 14, 0.15);
     background-color: rgb(198, 228, 214);
     align-items: center;
@@ -398,7 +398,6 @@ body {
     letter-spacing: 0%;
     text-align: left;
 }
-
 td,
 th {
     border: 1px solid black;
@@ -411,8 +410,9 @@ th {
     font-size: 16px;
     font-weight: 600;
     line-height: 19px;
-    letter-spacing: 0%;
     text-align: left;
+    margin: 0 44px;
+    max-width: 1216px;
 }
 
 .table-opinion {
@@ -421,7 +421,7 @@ th {
 
 table {
     border-collapse: collapse;
-    width: 1216px;
+    max-width: 1216px;
     height: 92px;
     padding: 24px;
 }
@@ -435,7 +435,7 @@ select {
     padding: 10px 14px;
     background-color: rgb(198, 228, 214);
     height: 44px;
-    width: 152px;
+    max-width: 152px;
     text-align: center;
     font-size: 16px;
     font-weight: 500;
@@ -843,6 +843,12 @@ footer {
         max-width: 95%;
         padding: 10px;
     }
+    .quote {
+        margin: 32px 5px;
+    }
+    .Opinion{
+        display: none;
+    }
 }
 
 
@@ -887,5 +893,15 @@ footer {
         gap: 24px;
     }
     .vision-card{
+    }
+    .quote {
+        margin: 48 24px;
+    }
+    .table-head{
+        gap: 36px;
+    }
+    select {
+        padding: 0;
+        font-size: 12px;
     }
 }
