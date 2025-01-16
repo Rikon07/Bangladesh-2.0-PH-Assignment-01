@@ -225,7 +225,7 @@ body {
 
 .vision-card-blue {
     width: 410px;
-    height: 325px;
+    /* height: 325px; */
     border-radius: 16px;
     background: rgba(84, 144, 245, 0.2);
     padding: 32px;
@@ -256,7 +256,7 @@ body {
 
 .vision-card-green {
     width: 410px;
-    height: 325px;
+    /* height: 325px; */
     border-radius: 16px;
     background: rgb(198, 228, 214);
     padding: 32px;
@@ -283,12 +283,11 @@ body {
 
 .vision-card-green-btn:hover {
     background-color: rgb(6, 103, 59);
-    ;
 }
 
 .vision-card-yellow {
     width: 410px;
-    height: 325px;
+    /* height: 325px; */
     border-radius: 16px;
     background: rgb(247, 235, 207);
     padding: 32px;
@@ -821,7 +820,6 @@ footer {
         margin: 5px;
     }
     .pillar-layout {
-        display: flex;
         flex-direction: column;
         justify-content: center;
         gap: 24px;
@@ -832,6 +830,18 @@ footer {
     }
     .pillar-card {
         max-width: 95%;
+    }
+    .Vision {
+        margin: 40px 10px;
+    }
+    .vision-layout {
+        flex-direction: column;
+        justify-content: center;
+        gap: 24px;
+    }
+    .vision-card{
+        max-width: 95%;
+        padding: 10px;
     }
 }
 
@@ -867,5 +877,15 @@ footer {
     .pillar-title{
         text-align: center;
         font-size: 30px;
+    }
+    .Vision {
+        margin: 40px 60px;
+    }
+    .vision-layout {
+        flex-direction: column;
+        justify-content: center;
+        gap: 24px;
+    }
+    .vision-card{
     }
 }
