@@ -4,8 +4,8 @@
 }
 
 body {
-    background-color: #F1F1F3;
-    width: 1600px;
+    background-color: #f1f1f3;
+    max-width: 1600px;
 }
 
 /* Shared*/
@@ -20,20 +20,24 @@ body {
     margin: 32px 0px;
 }
 
+.nonde{
+    display: none;
+}
+
 /* Nav */
 .Navbar {
-    width: 1600px;
+    max-width: 1600px;
     /* margin-top: 24px;
     margin-left: 160px;
     margin-right: 160px;
     margin-bottom: 24px; */
     margin: 32px auto;
     display: flex;
-    justify-items: space-between;
+    justify-items: space-evenly;
     justify-content: space-between;
     align-items: center;
     background-color: #F1F1F3;
-    gap: 580px;
+    gap: 520px;
 }
 
 .bangladesh2 {
@@ -68,8 +72,10 @@ body {
 
 /* Banner */
 .banner {
-    margin-left: 160px;
-    margin-right: 160px;
+    /* margin-left: 160px;
+    margin-right: 160px; */
+    max-width: 1200px;
+    margin: auto;
     padding: 80px 60px;
     border-radius: 24px;
     background: rgb(198, 228, 214);
@@ -89,7 +95,9 @@ body {
     /* margin-bottom: 16px; */
     margin: 16px 0px;
 }
-
+.banner-img{
+    width: 100%;
+}
 .text {
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
@@ -131,7 +139,7 @@ body {
 
 .pillar-layout {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 24px;
 }
 
@@ -141,7 +149,7 @@ body {
 
 .pillar-card {
     width: 302px;
-    height: 244px;
+    /* height: 244px; */
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
@@ -785,4 +793,79 @@ footer {
 
 .icons {
     gap: 23px;
+}
+
+
+/* Responsive for small screens */
+@media screen and (max-width: 576px){
+    .Navbar {
+        width: 100%;
+        /* margin: 32px auto; */
+        display: flex;
+        flex-direction: column;
+        background-color: #F1F1F3;
+        gap: 24px;
+    }
+    .banner {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 10px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .text {
+        font-size: 40px;
+        line-height: 44px;
+    }
+    .pillar {
+        margin: 5px;
+    }
+    .pillar-layout {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 24px;
+    }
+    .pillar-title{
+        text-align: center;
+        font-size: 30px;
+    }
+    .pillar-card {
+        max-width: 95%;
+    }
+}
+
+
+
+/* Responsive for medium screens */
+@media screen and (min-width: 576px) and (max-width: 992px){
+    .Navbar{
+        width: 90%;
+        margin: 32px auto;
+        gap: 24px;
+    }
+    .banner {
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 10px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .text {
+        font-size: 40px;
+        line-height: 44px;
+    }
+    .pillar {
+        margin: 10px;
+    }
+    .pillar-layout {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        gap: 12px;
+    }
+    .pillar-title{
+        text-align: center;
+        font-size: 30px;
+    }
 }
