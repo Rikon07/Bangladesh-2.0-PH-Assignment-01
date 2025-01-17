@@ -478,6 +478,7 @@ select:hover {
 
 .satelite {
     border-radius: 24px;
+    width: 100%;
 }
 
 .launch {
@@ -662,7 +663,7 @@ select:hover {
 
 /* Newsletter Box */
 .Newsletter {
-    width: 1280px;
+    max-width: 1280px;
     height: 395px;
 }
 
@@ -702,7 +703,7 @@ select:hover {
     background: rgb(255, 255, 255);
     padding: 18px 40px;
     border: none;
-    width: 600px;
+    max-width: 600px;
     gap: 0px;
     justify-content: center;
 }
@@ -849,12 +850,62 @@ footer {
     .Opinion{
         display: none;
     }
+    .Recent{
+        margin: 40px 10px;
+    }
+    .recent-box {
+        flex-direction: column;
+        padding: 24px;
+    }
+    .donate{
+        margin: 40px 5px;
+    }
+    .other-amount {
+        flex-direction: column;
+    }
+    .donate-txt{
+        padding: 24px;
+        margin: 24px auto;
+    }
+    .donation{
+        flex-direction: column;
+    }
+    .Amount{
+        width: 60%;
+    }
+    .taka-box {
+        padding: 24px;
+    }
+    .tk{
+        font-size: 32px;
+    }
+    .Newsletter-title{
+        text-align: center;
+    }
+    .subscribe-box{
+        padding: 40px 20px;
+    }
+    .subs-container{
+        flex-direction: column;
+    }
+    .subs-btn {
+        border-radius: 8px 8px 8px 8px;
+        width: 124px;
+    }
+    .email {
+        border-radius: 8px 8px 8px 8px;
+        margin-bottom: 5px;
+    }
+    
+    .email::placeholder {
+        text-align: center;
+    }
 }
 
 
 
 /* Responsive for medium screens */
-@media screen and (min-width: 576px) and (max-width: 992px){
+@media screen and (min-width: 576px) and (max-width: 1024px){
     .Navbar{
         width: 90%;
         margin: 32px auto;
@@ -903,5 +954,32 @@ footer {
     select {
         padding: 0;
         font-size: 12px;
+    }
+    .Recent{
+        margin: 40px 20px;
+    }
+    .recent-box {
+        flex-direction: column;
+        padding: 32px;
+    }
+    .donate{
+        margin: 40px 15px;
+    }
+    .other-amount {
+        flex-direction: column;
+    }
+    .donate-txt{
+        padding: 24px;
+        margin: 24px auto;
+    }
+    .donation{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .Amount{
+        width: 65%;
+    }
+    .taka-box {
+        padding: 24px;
     }
 }
