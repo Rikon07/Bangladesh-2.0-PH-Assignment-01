@@ -703,7 +703,7 @@ select:hover {
     background: rgb(255, 255, 255);
     padding: 18px 40px;
     border: none;
-    max-width: 600px;
+    width: 600px;
     gap: 0px;
     justify-content: center;
 }
@@ -895,10 +895,14 @@ footer {
     .email {
         border-radius: 8px 8px 8px 8px;
         margin-bottom: 5px;
+        max-width: 180px;
     }
     
     .email::placeholder {
         text-align: center;
+    }
+    .footer-box{
+        padding: 32px 24px;
     }
 }
 
@@ -981,5 +985,8 @@ footer {
     }
     .taka-box {
         padding: 24px;
+    }
+    .email {
+        max-width: 400px;
     }
 }
